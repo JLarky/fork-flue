@@ -15,7 +15,8 @@
 		"check:types": "turbo run check:types",
 		"format": "turbo run format:lint format:style",
 		"format:lint": "biome check . --write",
-		"format:style": "prettier . --cache --write --list-different"
+		"format:style": "prettier . --cache --write --list-different",
+		"test": "vitest run"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.0",
@@ -24,6 +25,7 @@
 		"prettier": "^3.4.2",
 		"tsx": "^4.19.2",
 		"turbo": "^2.3.3",
-		"typescript": "^5.9.2"
+		"typescript": "^5.9.2",
+		"vitest": "^4.1.0"
 	}
 }
